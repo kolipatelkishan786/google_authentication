@@ -17,20 +17,20 @@ Run `npm run start` for a dev server. Navigate to `http://localhost:5000/`. The 
 Awesome, let’s go!
 
 
-##Step 1: Install Dependencies
+## Step 1: Install Dependencies
 Just one — it’s on NPM if you didn’t already assume that.
 
 That was easy!
 
-##Step 2: Configure Google
+## Step 2: Configure Google
 Next you will need to configure the library with your credentials so Google knows who is making the requests.
 
 To get credentials — if you don’t already have them — go to your Google Developers Console and create a new project.
 
-##Step 3: Get the Google Login URL 
+## Step 3: Get the Google Login URL 
 Why do we need this?… Well, in order for us to sign someone in to Google, we need to send them to the Google login page. From here, they will sign in to their account and then they will be redirect to our app with their sign in details.
 
-##Step 4: Your Turn — Redirect Your Users to the Google URL
+## Step 4: Your Turn — Redirect Your Users to the Google URL
 This step requires you to send your users to the URL we just created. In my app, I generate the URL in the API and send it to my front-end where I make it the href address of a button e.g.
 
 ```
@@ -39,7 +39,7 @@ This step requires you to send your users to the URL we just created. In my app,
 
 This will take the user to the sign in page.
 
-##Step 5: Save the Sign In Details 
+## Step 5: Save the Sign In Details 
 
 Hopefully, you would have been able to sign in to your google account and Google would have redirected you back to your app (or the redirect address you told it to go to). Now all we have to do is make sure the account they signed in with matches a user in our database (or create one).
 
